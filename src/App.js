@@ -2,15 +2,7 @@ import React from 'react';
 import fb from 'firebase';
 import logo from './logo.svg';
 import './App.css';
-
-const firebaseConfig = {
-  apiKey: 'AIzaSyCLMDeqhqHDnXqTSitJvGtgVuN29duoxt4',
-  authDomain: 'shitcoin-trends.firebaseapp.com',
-  projectId: 'shitcoin-trends',
-  storageBucket: 'shitcoin-trends.appspot.com',
-  messagingSenderId: '356733166071',
-  appId: '1:356733166071:web:dd4f01c542d8355ccf0ef2',
-};
+import firebaseConfig from './.firebaseConfig';
 
 fb.initializeApp(firebaseConfig);
 const functions = fb.functions();
